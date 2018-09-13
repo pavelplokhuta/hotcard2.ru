@@ -13,3 +13,5 @@ fields:
   label: Email
   description: Адрес электронной почты
   default: mail@mail.ru
+pages:
+- index.html
