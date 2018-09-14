@@ -70,7 +70,7 @@ $(function() {
                 event = event || window.event;
                 $(form).ajaxSubmit({
                     success: function(responseText, statusText, xhr) {
-                        //window.location.replace("./multisertificate.html");
+                        window.location.replace("./");
                     }
                 });
                 return false;
