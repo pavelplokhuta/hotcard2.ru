@@ -54,11 +54,14 @@ $(function() {
     $.validator.addMethod("requiredphone", function(value, element) {
         return value.replace(/\D+/g, '').length > 1;
     }, "Это поле необходимо заполнить.");
-
+    /*
     $("#popup-action form").each(function() {
         $(this).validate({
             rules: {
-                name: {
+                number: {
+                    required: true,
+                },
+                pin: {
                     required: true,
                 },
                 tel: {
@@ -77,7 +80,7 @@ $(function() {
             }
         });
     });
-
+    */
     $("#popup-callback form").each(function() {
         $(this).validate({
             rules: {

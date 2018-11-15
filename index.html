@@ -852,21 +852,22 @@
                         <span class="light small">введите номер и ПИН
 								<br>вашего мультибрендового сертификата</span>
                     </h1>
-                    <form class="form" action="https://hotcardwebsiteapi.azurewebsites.net/api/consultation" method="POST">
+                    <form class="form" action="https://hotcardexchange.azurewebsites.net" method="GET">
                         <div class="form-label">
-                            <input class="form-input" name="name" type="text" placeholder="Номер сертификата" required="required">
+                            <input class="form-input" name="number" type="text" placeholder="Номер сертификата" required="required">
                         </div>
 
                         <div class="form-label">
                             <input class="form-input" name="pin" type="text" placeholder="ПИН" required="required">
                         </div>
 
-                        <div class="form-label">
-                            <input class="form-input" name="nominal" type="text" placeholder="Номинал" required="required">
-                        </div>
 
                         <div class="form-label">
                             <input class="form-input" name="tel" type="text" placeholder="Телефон" required="required">
+                        </div>
+
+                        <div class="form-label">
+                            <input class="form-input" name="email" type="email" placeholder="Email" required="required">
                         </div>
 
                         <input class="form-submit" type="submit" value="Активировать">
