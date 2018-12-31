@@ -1,1 +1,1 @@
-# hotcard.ru
+# hotcard2.ru
